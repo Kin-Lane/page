@@ -95,16 +95,16 @@
         ]
       }
     },
-    "/page/page_id": {
+    "/page/{page_id}": {
       "get": {
         "summary": "Retrieve a page using its id",
         "description": "Returns the page detail",
         "operationId": "getPage",
         "parameters": [
           {
-            "name": "slug",
+            "name": "page_id",
             "in": "path",
-            "description": "slug for the page, notice this is in the path, not a query variable",
+            "description": "id for the page, notice this is in the path, not a query variable",
             "required": true,
             "type": "integer"
           }
@@ -130,9 +130,9 @@
         "operationId": "updatePage",
         "parameters": [
           {
-            "name": "slug",
+            "name": "page_id",
             "in": "path",
-            "description": "unique slug for the page",
+            "description": "unique id for the page",
             "required": true,
             "type": "string"
           },
@@ -186,9 +186,9 @@
         "operationId": "deletePage",
         "parameters": [
           {
-            "name": "slug",
+            "name": "page_id",
             "in": "path",
-            "description": "unique slug for the page",
+            "description": "unique id for the page",
             "required": true,
             "type": "string"
           }
@@ -229,23 +229,8 @@
           "description": "tags for the page",
           "type": "string"
         },
-        "slug": {
-          "description": "slug for the page",
-          "type": "string"
-        }
-      }
-    },
-    "errorModel": {
-      "required": [
-        "code",
-        "message"
-      ],
-      "properties": {
-        "code": {
-          "type": "integer",
-          "format": "int32"
-        },
-        "message": {
+        "id": {
+          "description": "id for the page",
           "type": "string"
         }
       }
