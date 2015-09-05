@@ -1,0 +1,162 @@
+{
+	"id": "093f4770-54ab-3721-cd79-6f28ebb77136",
+	"name": "Page",
+	"description": "This is a page api",
+	"order": [],
+	"folders": [
+		{
+			"id": "c8513e8e-ec20-46f5-bc3c-5d4d58df437d",
+			"name": "page",
+			"description": "Folder for page",
+			"order": [
+				"aa0dbebb-4522-3515-a00b-d554ce1f4602",
+				"d9913590-9fbb-d316-e365-8d78d81f7e3d",
+				"27abf035-bfaf-7947-bb3e-8a01c5f11985",
+				"8b9b659f-4aba-13e1-253d-b3aed302684a",
+				"45d975ef-19e9-f890-3500-0a6250b114e9"
+			],
+			"collection_name": "Page",
+			"collection_id": "093f4770-54ab-3721-cd79-6f28ebb77136",
+			"collection": "e4e6b8b5-da4e-45ab-a979-e4d9cc220d27",
+			"owner": "27278",
+			"write": true,
+			"collection_owner": "27278"
+		}
+	],
+	"timestamp": 1413302258635,
+	"owner": "27278",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "27abf035-bfaf-7947-bb3e-8a01c5f11985",
+			"headers": "",
+			"url": "https://page.api.kinlane.com//page/{{page_id}}",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "size",
+					"value": "original",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"description": "Returns the page detail",
+			"descriptionFormat": "html",
+			"time": 1441430279294,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "093f4770-54ab-3721-cd79-6f28ebb77136",
+			"name": "Retrieve a page using its id",
+			"folder": "c8513e8e-ec20-46f5-bc3c-5d4d58df437d"
+		},
+		{
+			"id": "45d975ef-19e9-f890-3500-0a6250b114e9",
+			"headers": "",
+			"url": "https://page.api.kinlane.com//page/{{page_id}}",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "size",
+					"value": "original",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"description": "deletes an page",
+			"descriptionFormat": "html",
+			"time": 1441430279294,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "093f4770-54ab-3721-cd79-6f28ebb77136",
+			"name": "delete page",
+			"folder": "c8513e8e-ec20-46f5-bc3c-5d4d58df437d"
+		},
+		{
+			"id": "8b9b659f-4aba-13e1-253d-b3aed302684a",
+			"headers": "",
+			"url": "https://page.api.kinlane.com//page/{{page_id}}?name={{name}}&description={{description}}&url={{url}}&tags={{tags}}&",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "PUT",
+			"data": [
+				{
+					"key": "size",
+					"value": "original",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"description": "update page",
+			"descriptionFormat": "html",
+			"time": 1441430279294,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "093f4770-54ab-3721-cd79-6f28ebb77136",
+			"name": "update page",
+			"folder": "c8513e8e-ec20-46f5-bc3c-5d4d58df437d"
+		},
+		{
+			"id": "aa0dbebb-4522-3515-a00b-d554ce1f4602",
+			"headers": "",
+			"url": "https://page.api.kinlane.com//page/?query={{query}}&",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "size",
+					"value": "original",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"description": "pulls all pages, with filter by keyword",
+			"descriptionFormat": "html",
+			"time": 1441430279294,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "093f4770-54ab-3721-cd79-6f28ebb77136",
+			"name": "retrieves all pages",
+			"folder": "c8513e8e-ec20-46f5-bc3c-5d4d58df437d"
+		},
+		{
+			"id": "d9913590-9fbb-d316-e365-8d78d81f7e3d",
+			"headers": "",
+			"url": "https://page.api.kinlane.com//page/?name={{name}}&description={{description}}&url={{url}}&tags={{tags}}&",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [
+				{
+					"key": "size",
+					"value": "original",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"description": "add a new page",
+			"descriptionFormat": "html",
+			"time": 1441430279294,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "093f4770-54ab-3721-cd79-6f28ebb77136",
+			"name": "add page",
+			"folder": "c8513e8e-ec20-46f5-bc3c-5d4d58df437d"
+		}
+	]
+}
