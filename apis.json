@@ -27,6 +27,14 @@
         {
           "type": "Swagger",
           "url": "https://kin-lane.github.io/page/swagger.json"
+        },
+        {
+          "type": "x-postman",
+          "url": "https://kin-lane.github.io/page/postman.json"
+        },
+        {
+          "type": "x-api-science",
+          "url": "https://kin-lane.github.io/page/status/"
         }
       ],
       "contact": [

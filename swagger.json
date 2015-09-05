@@ -9,7 +9,8 @@
   "host": "page.api.kinlane.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "http",
+    "https"
   ],
   "produces": [
     "application/json"
@@ -41,8 +42,7 @@
           }
         },
         "tags": [
-          "page",
-          "pageging"
+          "Page"
         ]
       },
       "post": {
@@ -91,14 +91,13 @@
           }
         },
         "tags": [
-          "page",
-          "pageging"
+          "Page"
         ]
       }
     },
-    "/page/{slug}": {
+    "/page/page_id": {
       "get": {
-        "summary": "Retrieve a page using its slug",
+        "summary": "Retrieve a page using its id",
         "description": "Returns the page detail",
         "operationId": "getPage",
         "parameters": [
@@ -122,8 +121,7 @@
           }
         },
         "tags": [
-          "page",
-          "pageging"
+          "Page"
         ]
       },
       "put": {
@@ -179,8 +177,7 @@
           }
         },
         "tags": [
-          "page",
-          "pageging"
+          "Page"
         ]
       },
       "delete": {
@@ -208,8 +205,7 @@
           }
         },
         "tags": [
-          "page",
-          "pageging"
+          "Page"
         ]
       }
     }
