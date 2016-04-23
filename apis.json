@@ -1,4 +1,4 @@
-[{
+{
 	"name": "Kin Lane Page API",
 	"description": "Pages provide access to the content and data I make available across my network. I use Jeyll to manage my content, but it is this API that handles the management, and publishing of those pages. This API provides access to pages, which I may use on one or many of my Jeykyll driven sites, usually hosted via Github Pages.",
 	"image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-page.jpg",
@@ -6,7 +6,7 @@
 	"tags": ["Kin Lane Page API"],
 	"created": "2016-04-04",
 	"modified": "2016-04-04",
-	"url": "https://kin-lane.github.io/page/"
+	"url": "https://kin-lane.github.io/page/",
 	"specificationVersion": "0.14",
 	"apis": [{
 		"name": "Kin Lane Page API",
@@ -117,4 +117,4 @@
 		"x-twitter": "apievangelist",
 		"email": "info@apievangelist.com"
 	}]
-}]
+}
